@@ -1,0 +1,29 @@
+#localVideo, #remoteVideo {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ffffff;
+}
+
+.btn {
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

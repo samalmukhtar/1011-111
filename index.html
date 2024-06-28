@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع التحكم بين الأجهزة - دارك مود</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light">
+    <div class="container text-center">
+        <h1 class="mt-5 mb-4">مشروع التحكم بين الأجهزة - دارك مود</h1>
+        <div id="videoContainer" class="row mb-4">
+            <div class="col">
+                <video id="localVideo" autoplay muted class="rounded"></video>
+                <p>الفيديو الخاص بك</p>
+            </div>
+            <div class="col">
+                <video id="remoteVideo" autoplay class="rounded"></video>
+                <p>الفيديو البعيد</p>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button id="startCall" class="btn btn-primary mr-3">بدء المكالمة</button>
+            <button id="endCall" class="btn btn-danger">إنهاء المكالمة</button>
+        </div>
+        <div class="mb-4">
+            <h3>وسائل التواصل</h3>
+            <a href="#" class="text-light mr-3"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="text-light mr-3"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="text-light mr-3"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="mb-4">
+            <h3>التحكم بين الأجهزة</h3>
+            <button id="requestAccess" class="btn btn-success mr-3">طلب الولوج</button>
+            <button id="grantAccess" class="btn btn-warning mr-3">منح الولوج</button>
+            <button id="revokeAccess" class="btn btn-secondary">قطع الولوج</button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
